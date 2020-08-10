@@ -13,7 +13,7 @@ test = {
           True
           >>> sum(model_proportions) == 1
           True
-          >>> isinstance(simulation_proportion,float)
+          >>> isinstance(simulation_proportion,float) or isinstance(simulation_proportion, numpy.float64)
           True
           >>> 0 <= one_test_statistic <= 20
           True
